@@ -57,16 +57,21 @@ public class DadesPartidaLletresBarrejades {
     
     public static int RONDES_PER_PARTIDA=6;
     public static int PUNTUACIO_INICIAL=0;
+    public static int LIMIT = 30;
     public static double PUNTUACIO_RONDA1 = 0.5;
     public static double PUNTUACIO_RONDA2 = 0.2;
     public static double PUNTUACIO_RONDA3 = 0.1;
     
-    char[] diposit = new char[30];
-    String[] paraulesPartida;
-    String[] proposta;
-    boolean propostaValida;
+    public char[] diposit = new char[30];
+    public String[] paraules;
+    public String[] proposta;
+    public String paraulaRandom;
+    public boolean propostaValida;
+   
     
-    int puntsRonda;
-    int puntsPartida;
-    int rondaActual=0;
+    public int puntsRonda;
+    public int puntsPartida;
+    public int rondaActual=0;
 }
+
+
